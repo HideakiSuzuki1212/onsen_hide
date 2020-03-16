@@ -82,6 +82,12 @@ h1,h2,h3,h4,h5,h6 {
   padding: 10px 0px;
 }
 
+.main-nav li a:hover {
+  background-color: silver;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .home-content {
   position: relative;
 }
@@ -167,6 +173,13 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 20px;
   background-image: linear-gradient( 0deg, rgb(190,190,190) 0%, rgb(238,238,238) 50%, rgb(210,210,210) 100%);
 }
+
+.onsen-link:hover {
+  background-color: silver;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 
 .daiyokujo {
   margin-top: 30px;

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>ほっこり旅館「秀」</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="JS/jQuery.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -19,11 +21,11 @@
         <nav>
           <div class="main-nav">
             <ul class="container">
-                <li><a>お知らせ</a></li>
-                <li><a>温　泉</a></li>
-                <li><a>お食事</a></li>
-                <li><a>交通案内</a></li>
-                <li><a>ご予約</a></li>
+                <li><a href="#news">お知らせ</a></li>
+                <li><a href="#spa">温　泉</a></li>
+                <li><a href="#meal">お食事</a></li>
+                <li><a href="#access">交通案内</a></li>
+                <li><a href="#">ご予約</a></li>
             </ul>
           </div>
         </nav>
@@ -40,7 +42,7 @@
         </div>
       </section>
       <section>
-        <div class="news">
+        <div id="news" class="news">
           <div class="container">
             <h3>お知らせ</h3>
             <div class="news-items">
@@ -67,7 +69,7 @@
         </div>
       </section>
       <section>
-        <div class="onsen container">
+        <div id="spa" class="onsen container">
           <figure class="catch">
             <img src="images/onsen_catch.jpg" alt="onsen_catch">
           </figure>
@@ -115,7 +117,7 @@
         </div>
       </section>
       <section>
-        <div class="meal container">
+        <div id="meal" class="meal container">
           <figure class="catch">
             <img src="images/syokuji.jpg" alt="meal_catch">
           </figure>
@@ -132,7 +134,7 @@
         </div>
       </section>
       <section>
-        <div class="access container">
+        <div id="access" class="access container">
           <h3>交通案内</h3>
           <dl class="access-list">
             <dt>宿　名</dt>
